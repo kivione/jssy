@@ -1,0 +1,30 @@
+{
+  "name": "jssy",
+  "version": "1.0.0",
+  "description": "Carefree CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kivione/jssy.git"
+  },
+  "author": "daende",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kivione/jssy/issues"
+  },
+  "homepage": "https://github.com/kivione/jssy#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "less": "^2.7.2",
+    "lodash": "^4.17.4",
+    "lowdb": "^0.16.2",
+    "pug": "^2.0.0-beta11"
+  },
+  "jshintConfig": {
+    "asi": true,
+    "esversion": 6
+  }
+}
