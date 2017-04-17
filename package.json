@@ -2,7 +2,7 @@
   "name": "jssy",
   "version": "1.0.0",
   "description": "Carefree CMS",
-  "main": "index.js",
+  "main": "lib/jssy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
