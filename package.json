@@ -4,10 +4,7 @@
   "description": "Carefree CMS",
   "main": "lib/jssy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "./node_modules/.bin/gulp",
-    "build": "./node_modules/.bin/gulp",
-    "dev": "./node_modules/.bin/gulp dev"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -20,18 +17,9 @@
   },
   "homepage": "https://github.com/kivione/jssy#readme",
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "colors": "^1.1.2",
     "express": "^4.15.2",
-    "gulp": "^3.9.1",
-    "gulp-angular-templatecache": "^2.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-less": "^3.3.0",
     "lodash": "^4.17.4",
-    "lowdb": "^0.16.2",
-    "password-hash": "^1.2.2",
-    "pug": "^2.0.0-beta11",
-    "streamqueue": "^1.1.1"
+    "lowdb": "^0.16.2"
   },
   "jshintConfig": {
     "asi": true,
